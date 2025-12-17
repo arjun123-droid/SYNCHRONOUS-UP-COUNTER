@@ -54,6 +54,19 @@ begin
 end
 endmodule
 
+DOWN COUNTER
+module ex11(out,clk,rst);
+input clk,rst;
+output reg [3:0]out;
+always @ (posedge clk)
+begin
+   if(rst)
+     out<=0;
+   else 
+     out <= out-1;
+end
+endmodule
+
 ```
 
 **RTL LOGIC UP COUNTER**
@@ -62,6 +75,14 @@ endmodule
 
 **TIMING DIAGRAM FOR IP COUNTER**
 <img width="1919" height="1079" alt="Screenshot 2025-12-10 112723" src="https://github.com/user-attachments/assets/d4096511-0746-46b4-9c28-005facc1ba2c" />
+
+
+**RTL LOGIC UP COUNTER**
+<img width="1919" height="1079" alt="Screenshot 2025-12-17 221547" src="https://github.com/user-attachments/assets/bfb0f92e-6457-45e5-a4f2-43d8f1dcfa67" />
+
+
+**TIMING DIAGRAM FOR IP COUNTER**
+<img width="1908" height="1079" alt="Screenshot 2025-12-17 221759" src="https://github.com/user-attachments/assets/1f050232-7f21-48b6-b9f7-0d5908c1237f" />
 
 
 **TRUTH TABLE**
