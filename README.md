@@ -77,7 +77,7 @@ endmodule
 <img width="1919" height="1079" alt="Screenshot 2025-12-10 112723" src="https://github.com/user-attachments/assets/d4096511-0746-46b4-9c28-005facc1ba2c" />
 
 
-**RTL LOGIC UP COUNTER**
+**RTL LOGIC DOWN COUNTER**
 <img width="1919" height="1079" alt="Screenshot 2025-12-17 221547" src="https://github.com/user-attachments/assets/bfb0f92e-6457-45e5-a4f2-43d8f1dcfa67" />
 
 
